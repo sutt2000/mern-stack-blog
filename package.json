@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "nodemon ./server/server.js --exec babel-node"
   },
+  "dev-watch": "babel-watch server/server.js --ignore'./client'",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sutt2000/mern-stack-blog.git"
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/sutt2000/mern-stack-blog#readme",
   "dependencies": {
+    "babel-watch": "^7.0.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
