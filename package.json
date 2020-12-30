@@ -1,0 +1,39 @@
+{
+  "name": "mern-stack-blog",
+  "version": "1.0.0",
+  "description": "usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\r            [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\r            [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]\r            [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\r            <command> [<args>]",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./server/server.js --exec babel-node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sutt2000/mern-stack-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sutt2000/mern-stack-blog/issues"
+  },
+  "homepage": "https://github.com/sutt2000/mern-stack-blog#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "helmet": "^4.3.1",
+    "hpp": "^0.2.3",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.9",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.12.11",
+    "babel-loader": "^8.2.2"
+  }
+}
